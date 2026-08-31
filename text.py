@@ -62,6 +62,13 @@ list comprehension内可以写任何可以遍历的对象,eg:[x**2 for x in 'hel
 函数中的default参数,def func(a,b=1)中b为default参数,调用func(2)时,b的值为1,调用func(2,3)时,b的值为3
 默认参数必须放在非默认参数的后面,eg:def func(a=1,b)会报错
 在调用函数可以使用关键字参数,eg:func(b=3,a=2)返回5
+异常处理:try和except,作用类似于if和else,如果在try下出现异常会执行except语句
+通过对异常状况的分类可以实现执行不同的except语句
+try也可以与else和finally配合使用,只有try中语句正常时才执行else,无论try是否执行finally都会执行
+raise关键字抛出自定义错误,即在发生这种类型错误时输出自定义内容
+
+
+
 
 
 
