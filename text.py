@@ -1,4 +1,5 @@
 '''
+    python study
 特殊变量类型:NoneType只有唯一值None
 查询类型函数:type()
 bool类型中True和Flase首字母必须大写
